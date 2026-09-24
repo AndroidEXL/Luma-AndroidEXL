@@ -1,0 +1,7 @@
+Luma AVR Android toolchain
+ABI=armeabi-v7a
+GCC=7.3.0-atmel3.6.1-arduino7
+Binutils=2.30
+AVR-LibC=bundled-with-avr-gcc-7.3.0-atmel3.6.1-arduino7
+ArduinoCore=1.8.8
+ArduinoCore-SHA256=a234c2a43dcd01ce54be665806f183b8e6ec4e966d2e3e0c3358b63023d6390c

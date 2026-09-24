@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="luma_space_1">4dp</dimen>
+    <dimen name="luma_space_2">8dp</dimen>
+    <dimen name="luma_space_3">12dp</dimen>
+    <dimen name="luma_space_4">16dp</dimen>
+    <dimen name="luma_space_5">24dp</dimen>
+    <dimen name="luma_space_6">32dp</dimen>
+    <dimen name="luma_radius_small">12dp</dimen>
+    <dimen name="luma_radius_medium">18dp</dimen>
+    <dimen name="luma_radius_large">26dp</dimen>
+    <dimen name="luma_button_height">52dp</dimen>
+    <dimen name="luma_toolbar_height">68dp</dimen>
+    <dimen name="luma_body_text">15sp</dimen>
+    <dimen name="luma_caption_text">12sp</dimen>
+    <dimen name="luma_title_text">30sp</dimen>
+</resources>

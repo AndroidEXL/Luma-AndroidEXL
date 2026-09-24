@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/ubuntu/AnimatedSplashKotlin/avr-android/.cxx/Debug/5o2u2j5e/arm64-v8a",
+  "command": "/home/ubuntu/android-sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --sysroot=/home/ubuntu/android-sdk/ndk/27.2.12479018/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Davr_android_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++17 -fvisibility=hidden -fno-limit-debug-info  -fPIC -o CMakeFiles/avr_android.dir/avr_android.cpp.o -c /home/ubuntu/AnimatedSplashKotlin/avr-android/src/main/cpp/avr_android.cpp",
+  "file": "/home/ubuntu/AnimatedSplashKotlin/avr-android/src/main/cpp/avr_android.cpp"
+}
+]

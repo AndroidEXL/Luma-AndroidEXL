@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ideRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/editor_panel"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ideTopBar"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="@color/toolbar_surface"
+        android:elevation="5dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="8dp"
+        android:paddingEnd="12dp">
+
+        <ImageButton
+            android:id="@+id/ideBackButton"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/ide_back"
+            android:padding="9dp"
+            android:src="@drawable/ic_arrow_back" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ideProjectName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="@color/text_primary"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ideProjectFile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:textColor="@color/text_secondary"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/ideStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/type_chip"
+            android:paddingStart="9dp"
+            android:paddingTop="5dp"
+            android:paddingEnd="9dp"
+            android:paddingBottom="5dp"
+            android:text="@string/ide_ready"
+            android:textColor="@color/violet_500"
+            android:textSize="10sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/menuScroll"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/editor_gutter"
+        android:scrollbars="none">
+
+        <com.google.android.material.button.MaterialButtonToggleGroup
+            android:id="@+id/menuGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingStart="6dp"
+            android:paddingEnd="6dp"
+            app:singleSelection="false">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/fileMenuButton"
+                style="@style/Widget.Material3.Button.TextButton"
+                android:layout_width="78dp"
+                android:layout_height="44dp"
+                android:text="@string/ide_file"
+                android:textAllCaps="false"
+                android:textColor="@color/text_primary"
+                android:textSize="11sp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/actionMenuButton"
+                style="@style/Widget.Material3.Button.TextButton"
+                android:layout_width="82dp"
+                android:layout_height="44dp"
+                android:text="@string/ide_action"
+                android:textAllCaps="false"
+                android:textColor="@color/text_primary"
+                android:textSize="11sp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/examplesMenuButton"
+                style="@style/Widget.Material3.Button.TextButton"
+                android:layout_width="92dp"
+                android:layout_height="44dp"
+                android:text="@string/ide_examples"
+                android:textAllCaps="false"
+                android:textColor="@color/text_primary"
+                android:textSize="11sp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/libraryMenuButton"
+                style="@style/Widget.Material3.Button.TextButton"
+                android:layout_width="84dp"
+                android:layout_height="44dp"
+                android:text="@string/ide_library"
+                android:textAllCaps="false"
+                android:textColor="@color/text_primary"
+                android:textSize="11sp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/codeMenuButton"
+                style="@style/Widget.Material3.Button.TextButton"
+                android:layout_width="78dp"
+                android:layout_height="44dp"
+                android:text="@string/ide_code"
+                android:textAllCaps="false"
+                android:textColor="@color/text_primary"
+                android:textSize="11sp" />
+        </com.google.android.material.button.MaterialButtonToggleGroup>
+    </HorizontalScrollView>
+
+    <HorizontalScrollView
+        android:id="@+id/openFilesScroll"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+            android:background="@color/toolbar_surface"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/openFilesContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingStart="6dp"
+            android:paddingEnd="6dp" />
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/sectionTrail"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:background="@color/editor_background"
+        android:paddingStart="16dp"
+        android:paddingTop="5dp"
+        android:paddingEnd="16dp"
+        android:text="@string/ide_ready"
+        android:textColor="@color/editor_gutter_text"
+        android:textSize="9sp"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@+id/editorFrame"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/editor_background"
+        android:layoutDirection="ltr">
+
+        <com.example.animatedsplash.CodeEditorView
+            android:id="@+id/codeEditor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:fontFamily="monospace"
+            android:gravity="top|start"
+            android:inputType="textMultiLine|textNoSuggestions"
+            android:paddingStart="58dp"
+            android:paddingTop="16dp"
+            android:paddingEnd="18dp"
+            android:paddingBottom="20dp"
+            android:scrollbars="vertical|horizontal"
+            android:textColor="@color/editor_text"
+            android:textCursorDrawable="@null"
+            android:textDirection="ltr"
+            android:textSize="14sp"
+            android:lineSpacingExtra="3dp"
+            android:overScrollMode="never" />
+
+        <com.example.animatedsplash.EditorLineNumberView
+            android:id="@+id/lineNumbers"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:clickable="false"
+            android:focusable="false" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/variablesStatus"
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:background="@color/editor_gutter"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:paddingStart="16dp"
+        android:paddingTop="6dp"
+        android:paddingEnd="16dp"
+        android:textColor="@color/editor_gutter_text"
+        android:textSize="9sp" />
+</LinearLayout>

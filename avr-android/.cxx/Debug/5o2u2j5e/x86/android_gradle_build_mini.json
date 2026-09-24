@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "/home/ubuntu/AnimatedSplashKotlin/avr-android/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/ubuntu/android-sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/home/ubuntu/AnimatedSplashKotlin/avr-android/.cxx/Debug/5o2u2j5e/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/ubuntu/android-sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/home/ubuntu/AnimatedSplashKotlin/avr-android/.cxx/Debug/5o2u2j5e/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "avr_android::@6890427a1f51a3e7e1df": {
+      "artifactName": "avr_android",
+      "abi": "x86",
+      "output": "/home/ubuntu/AnimatedSplashKotlin/avr-android/build/intermediates/cxx/Debug/5o2u2j5e/obj/x86/libavr_android.so",
+      "runtimeFiles": []
+    }
+  }
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ink_950">#090B1A</color>
+    <color name="ink_900">#11142B</color>
+    <color name="violet_500">#7C5CFC</color>
+    <color name="cyan_400">#40D9FF</color>
+    <color name="white_90">#E8E9F7</color>
+    <color name="white_60">#9EA3C7</color>
+
+    <color name="app_background">#F6F7FC</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="card_stroke">#E3E6F0</color>
+    <color name="text_primary">#181A2B</color>
+    <color name="text_secondary">#636A85</color>
+    <color name="text_muted">#8B91A8</color>
+    <color name="chip_background">#EEEAFE</color>
+    <color name="toolbar_surface">#FFFFFF</color>
+    <color name="splash_text_primary">#1A1B36</color>
+    <color name="splash_text_secondary">#626A8C</color>
+    <color name="splash_footer">#7180A8</color>
+    <color name="splash_status_bar">#FBFBFF</color>
+    <color name="splash_navigation_bar">#EAF8FF</color>
+    <color name="editor_background">#FBFCFF</color>
+    <color name="editor_gutter">#F0F2F8</color>
+    <color name="editor_gutter_text">#8B91A8</color>
+    <color name="editor_text">#20243A</color>
+    <color name="editor_panel">#FFFFFF</color>
+    <color name="editor_suggestion">#EEF0FF</color>
+    <color name="completion_popup_background">#20243B</color>
+    <color name="completion_border">#485174</color>
+    <color name="completion_label">#E6E9FF</color>
+    <color name="completion_detail">#7881A8</color>
+    <color name="completion_badge">#5A4A49</color>
+    <color name="completion_badge_text">#F0A978</color>
+    <color name="library_added">#1976D2</color>
+    <color name="library_not_added">#111318</color>
+    <color name="error_red">#D94841</color>
+</resources>

@@ -1,0 +1,1 @@
+/home/ubuntu/AnimatedSplashKotlin/avr-android/build/intermediates/cxx/Debug/5o2u2j5e/obj/x86_64

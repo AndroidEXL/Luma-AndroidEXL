@@ -1,0 +1,3 @@
+/home/ubuntu/AnimatedSplashKotlin/avr-android/.cxx/Debug/5o2u2j5e/x86/CMakeFiles/avr_android.dir
+/home/ubuntu/AnimatedSplashKotlin/avr-android/.cxx/Debug/5o2u2j5e/x86/CMakeFiles/edit_cache.dir
+/home/ubuntu/AnimatedSplashKotlin/avr-android/.cxx/Debug/5o2u2j5e/x86/CMakeFiles/rebuild_cache.dir

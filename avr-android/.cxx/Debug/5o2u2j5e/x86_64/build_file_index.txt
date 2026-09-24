@@ -1,0 +1,1 @@
+/home/ubuntu/AnimatedSplashKotlin/avr-android/src/main/cpp/CMakeLists.txt
