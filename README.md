@@ -1,4 +1,4 @@
-# AnimatedSplashKotlin
+# LUMA Arduino
 
 مشروع Android أصلي بلغة **Kotlin** يقدّم تطبيق Luma لمبرمجي Arduino، مع مساحة مشاريع وIDE عمودي لمحرر ملفات INO.
 
@@ -118,3 +118,18 @@ compiler.verify(
 [3]: https://arduino.github.io/arduino-cli/library-specification/ "Arduino CLI Library Specification"
 [4]: https://developer.android.com/ndk/guides "Android NDK guide"
 [5]: https://developer.android.com/ndk/guides/abis "Android ABI guide"
+
+## Keywords
+
+Luma Android app
+Luma APK
+Luma Android
+Android application
+Kotlin Android app
+Android APK
+Arduino For Android
+Arduino IDE
+Arduino Apk
+Kotiln Arduino App
+Luma GitHub
+LUMA Arduino
